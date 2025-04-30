@@ -1,2 +1,5 @@
-# sudoko
-sudoko game with html, js , css
+# sudoko-game
+# sudoko-game
+# sudoko-game
+# sudoko-game
+# sudoko-game

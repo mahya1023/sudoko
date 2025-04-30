@@ -1,0 +1,39 @@
+<!doctype html>
+<html leng="en">
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initail-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>SudokuPlay</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div id="overlay">
+        <h1>SudokuPlay</h1>
+        <h3> let`s Play</h3>
+        <button id="startButton" onclick="startGame()">Start Game </button>
+    </div>
+
+    <div id="home">
+        <div id="timer" class="item">00:00</div>
+        <div class="home item">
+
+            <table class="rooms " id="A"></table>
+        </div>
+    </div>
+    </div>
+    <div id="result" style="display:none">
+        <div id="end-message">
+            <div id="lose"></div>
+            <div id="win"></div>
+        </div>
+        <button id="startButton" onclick="startAgain()">Start again </button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
